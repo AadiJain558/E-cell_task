@@ -1,0 +1,77 @@
+#cont {
+  display: grid;
+  height: 385px;
+  width: 385px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #D9D9D9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.box {
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth color and scaling transition */
+}
+
+.box:hover {
+  transform: scale(1.05); /* Slight scaling effect when hovering over a box */
+}
+
+/* Animation for sequential color change when the last box is clicked */
+@keyframes colorChange {
+  0% {
+    background-color: #00407A;
+  }
+  100% {
+    background-color: #00407A; /* Blue when color changes */
+  }
+}
+
+/* Applying the animation with delay for each box */
+.box.color-change-0 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 0s;
+}
+
+.box.color-change-1 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 0.3s;
+}
+
+.box.color-change-2 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 0.6s;
+}
+
+.box.color-change-3 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 0.9s;
+}
+
+.box.color-change-4 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 1.2s;
+}
+
+.box.color-change-5 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 1.5s;
+}
+
+.box.color-change-6 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 1.8s;
+}
+
+.box.color-change-7 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 2.1s;
+}
+
+.box.color-change-8 {
+  animation: colorChange 0.3s forwards;
+  animation-delay: 2.4s;
+}

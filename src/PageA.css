@@ -1,0 +1,11 @@
+#content{
+    display: flex;
+    align-items: center;
+    height: 385px;
+    width: 1203px;
+    /* background-color: aqua; */
+    margin-top: 40px;
+    margin-left: 155px;
+    gap: 16px;
+}
+

@@ -1,0 +1,26 @@
+#cont{
+    display: grid;
+    height: 385px;
+    width: 385px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #D9D9D9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.box{
+    border-radius: 10px;
+    background-color: #00407A;
+    height: 100px;
+    width: 100px;
+}
+.box:hover {
+    cursor: pointer;
+}
+.redbox{
+    border-radius: 10px;
+    background-color: #7A0000;
+    height: 100px;
+    width: 100px;
+}
+
